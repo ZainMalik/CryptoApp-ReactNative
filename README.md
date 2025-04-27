@@ -99,9 +99,11 @@ Expo Tools — Expo-specific enhancements (optional)
 
 ### 🐛 Troubleshooting
 If you face any network issues, try running:
+
 expo start --tunnel
 
 Clear Expo cache if unexpected errors occur:
+
 expo start -c
 
 Ensure your phone and computer are on the same Wi-Fi network when using physical devices.
@@ -109,8 +111,13 @@ Ensure your phone and computer are on the same Wi-Fi network when using physical
 ### 📚 Useful Commands
 
 Command	Description:
+
 expo start - Start development server.
+
 expo build:android - Build APK or AAB for Android.
+
 expo build:ios - Build IPA for iOS.
+
 expo upgrade - Upgrade Expo SDK version.
+
 npm run lint - Run linter (if configured).
