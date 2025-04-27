@@ -1,50 +1,73 @@
-# Welcome to your Expo app 👋
+# Crypto Tracker App
+A React Native application that displays live cryptocurrency market data. This app features biometric authentication, dynamic market data visualization, and detailed coin information.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Features
+## Biometric Authentication
 
-## Get started
+Secure access with fingerprint or face recognition
+Fallback options for devices without biometric capabilities
 
-1. Install dependencies
+## Market Overview
 
-   ```bash
-   npm install
-   ```
+Three category tabs:
 
-2. Start the app
+Featured: Top 20 cryptocurrencies by market cap
+Top Gainers: Top 20 by 24-hour percentage gain
+Top Losers: Top 20 by 24-hour percentage loss
 
-   ```bash
-    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+Live-updating coin listings with dynamic charts
+Infinite scroll for smooth data loading
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Coin Details
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Detailed view of coin performance
+Toggle between line chart and candlestick views
+Time range selector (1D, 1W, 1M, 1Y, All)
+Key statistics (market cap, volume, supply, etc.)
 
-## Get a fresh project
+### Performance Optimization
 
-When you're ready, run:
+Lazy loading with infinite scroll
+Memoized calculations and renders
+Efficient re-rendering patterns
 
-```bash
-npm run reset-project
-```
+### Code Organization
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Feature-based organization
+Component-driven development
+TypeScript for type safety
 
-## Learn more
+### API Integration
+The app integrates with the following cryptocurrency data endpoints:
 
-To learn more about developing your project with Expo, look at the following resources:
+All Coins: https://coingeko.burjx.com/coin-prices-all?currency=usd&page=1&pageSize=10
+Coin OHLC Data: https://coingeko.burjx.com/coin-ohlc?productId=2&days=30
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Setup and Running
 
-## Join the community
+Install dependencies:
 
-Join our community of developers creating universal apps.
+bashnpm install
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Start the development server:
+
+bashnpm start
+
+Run on a device or emulator:
+
+bashnpm run android
+# or
+npm run ios
+Requirements
+
+Node.js 14+
+Expo CLI
+React Native development environment
+
+### Dependencies
+
+React Navigation for screen navigation
+Expo Local Authentication for biometric features
+React Native Chart Kit for charting
+Reanimated for smooth animations
