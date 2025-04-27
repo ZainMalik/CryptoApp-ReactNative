@@ -4,45 +4,40 @@ A React Native application that displays live cryptocurrency market data. This a
 # Features
 ## Biometric Authentication
 
-Secure access with fingerprint or face recognition
-Fallback options for devices without biometric capabilities
+- Secure access with fingerprint.
+- Fallback options for devices without biometric capabilities.
 
 ## Market Overview
 
 Three category tabs:
 
-Featured: Top 20 cryptocurrencies by market cap
-Top Gainers: Top 20 by 24-hour percentage gain
-Top Losers: Top 20 by 24-hour percentage loss
+1.Featured: Top 20 cryptocurrencies by market cap.
 
+2.Top Gainers: Top 20 by 24-hour percentage gain.
 
-Live-updating coin listings with dynamic charts
-Infinite scroll for smooth data loading
+3.Top Losers: Top 20 by 24-hour percentage loss.
+
+- Live-updating coin listings with dynamic charts.
+- Infinite scroll for smooth data loading.
 
 ## Coin Details
 
-Detailed view of coin performance
-Toggle between line chart and candlestick views
-Time range selector (1D, 1W, 1M, 1Y, All)
-Key statistics (market cap, volume, supply, etc.)
-
-### Performance Optimization
-
-Lazy loading with infinite scroll
-Memoized calculations and renders
-Efficient re-rendering patterns
+- Detailed view of coin performance.
+- Time range selector (1D, 1W, 1M, 1Y, All)
+- Key statistics (market cap, volume, supply, etc.)
 
 ### Code Organization
 
-Feature-based organization
-Component-driven development
-TypeScript for type safety
+- Feature-based organization
+- Component-driven development
+- TypeScript for type safety
 
 ### API Integration
 The app integrates with the following cryptocurrency data endpoints:
 
-All Coins: https://coingeko.burjx.com/coin-prices-all?currency=usd&page=1&pageSize=10
-Coin OHLC Data: https://coingeko.burjx.com/coin-ohlc?productId=2&days=30
+All Coins: https://coingeko.burjx.com/coin-prices-all?currency=usd&page=1&pageSize=10.
+
+Coin OHLC Data: https://coingeko.burjx.com/coin-ohlc?productId=2&days=30.
 
 ### Setup and Running
 
