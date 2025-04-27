@@ -48,26 +48,21 @@ Coin OHLC Data: https://coingeko.burjx.com/coin-ohlc?productId=2&days=30
 
 Install dependencies:
 
-bashnpm install
+npm install
 
 Start the development server:
 
-bashnpm start
+npm start
 
 Run on a device or emulator:
 
-bashnpm run android
+npm run android
 # or
 npm run ios
+
 Requirements
 
 Node.js 14+
-Expo CLI
+Expo CLI and SDK 52
 React Native development environment
 
-### Dependencies
-
-React Navigation for screen navigation
-Expo Local Authentication for biometric features
-React Native Chart Kit for charting
-Reanimated for smooth animations
