@@ -73,7 +73,8 @@ npm start
 # or
 yarn start
 # or
-expo start
+npx expo start
+
 This will open the Expo Developer Tools in your browser.
 
 ### 📱 Running the App
