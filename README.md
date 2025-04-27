@@ -54,21 +54,21 @@ VS Code installed
 Expo Go App installed on your Android or iOS device (for testing)
 
 ### 🛠 Setup Instructions
-1. Clone the Project
+#### 1. Clone the Project
 git clone <your-repo-url>
 cd <project-folder>
 
-2. Install Dependencies
+#### 2. Install Dependencies
 npm install
 # or
 yarn install
 
-3. Install Expo CLI (if not installed yet)
+#### 3. Install Expo CLI (if not installed yet)
 npm install -g expo-cli
 You can verify by running:
 expo --version
 
-4. Start the Expo Development Server
+#### 4. Start the Expo Development Server
 npm start
 # or
 yarn start
@@ -110,7 +110,7 @@ Ensure your phone and computer are on the same Wi-Fi network when using physical
 
 ### 📚 Useful Commands
 
-Command	Description:
+#### Command	Description:
 
 expo start - Start development server.
 
